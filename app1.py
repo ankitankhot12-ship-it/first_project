@@ -8,7 +8,7 @@ import numpy as np
 
 with open('best_model.pkl','rb') as file:
     model = pickle.load(file)
-    print(data)
+    st.write("model loaded successfully")
 # model = pickle.load(open("final_model.pkl", "rb"))
 # =========================
 # Page Config-
